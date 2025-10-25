@@ -124,12 +124,12 @@ MONGODB_URI=mongodb://localhost:27017/dock-d
 2. Add database name `/dock-d` before the `?`
 3. Final format:
    ```
-   mongodb+srv://dockd-admin:YourPassword123@cluster0.xxxxx.mongodb.net/dock-d?retryWrites=true&w=majority
+   mongodb+srv://dockd-admin:YourPasswordThathasbeenset123@cluster123.xxxxxxxx.mongodb.net/dock1-d1?retryWrites=true&w=majoritymt
    ```
 
 ### Step 7: Update .env
 ```env
-MONGODB_URI=mongodb+srv://dockd-admin:YourPassword123@cluster0.xxxxx.mongodb.net/dock-d?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://dockd-admin:YourPasswordThathasbeenset123@cluster123.xxxxxxxx.mongodb.net/dock1-d1?retryWrites=true&w=majoritymt
 ```
 
 ### Step 8: Test Connection
